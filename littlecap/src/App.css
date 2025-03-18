@@ -1,14 +1,25 @@
 * {
+  border: 0;
+  margin: 0;
   font-family: "Markazi Text", "Karla", serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  display: grid;
+  border-radius: 16px;
 }
+
 .navbar{
-  grid-template-columns: repeat(7, 1fr);
+  display: grid;
   align-items: center;
+  max-height: 4rem ;
+}
+.navbar > img{
+ max-height: 4rem;
+}
+.navbar > a{
+  text-align: start;
+  table-layout: auto;
 }
 .hero {
   min-height: 13rem;
@@ -48,6 +59,5 @@ footer {
   justify-content: center;
   align-content: center;
   max-height: 8rem;
-
 
 }
