@@ -1,4 +1,4 @@
-Import HeroImage from ".../.../assets/food" 
+import HeroImage from ".../.../assets/food" 
 //don't forget to update to photo location in assets
 
 function Heading() {
