@@ -1,8 +1,6 @@
 import './App.css';
 import Navigation from './components/Nav';
 import Footer from './components/Footer';
-import {Route, Routes} from 'react-router-dom'
-
 
 function App() {
   return (
