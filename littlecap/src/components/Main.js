@@ -6,6 +6,7 @@ import Menu from './pages/Menu';
 import BookingPage from './pages/BookingPage';
 import Order from './pages/OrderOnline';
 import Login from './pages/Login';
+import Homepage from './pages/Homepage';
 
 function Main() {
     return (
@@ -24,3 +25,4 @@ function Main() {
             </div>
     )
 }
+export default Main;

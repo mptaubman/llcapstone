@@ -1,6 +1,6 @@
 import rest_chef from 'littlecap\src\assets\rest_chef.jpg';
 
-function Login() {
+function LoginHead() {
     return (
         <header className='reserve-table'>
             <img
@@ -13,4 +13,4 @@ function Login() {
         </header>
     );
 }
-export default Login;
+export default LoginHead;

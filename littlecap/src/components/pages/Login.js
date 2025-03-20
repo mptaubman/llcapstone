@@ -1,9 +1,9 @@
-import Login from "../sectionComponents/Login";
+import LoginHead from "../sectionComponents/LoginHead";
 
 function Login(){
     return(
         <>
-        <Login />
+        <LoginHead />
         </>
     );
 }
