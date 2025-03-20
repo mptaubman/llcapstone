@@ -1,11 +1,11 @@
-import HeroImg from 'littlecap\src\assets';
+import Grill from 'littlecap\src\assets\grill.jpg';
 
 function MenuHeader() {
     return (
         <header className='reserve-table'>
             <img
                 className='header-reserve'
-                src={HeroImg}
+                src={Grill}
                 alt="Little lemon ingrediants"></img>
                 <div className='reserve-header-t'>
                     <h1>Menu</h1>

@@ -1,11 +1,11 @@
-import HeroImg from "littlecap\src\assets";
+import Mario_Adrian from "littlecap\src\assets\Mario_Adrian.jpg";
 
 function Heading() {
     return (
         <header className="reserve-table">
-            <img 
+            <img
             className="header-reserve"
-            src={HeroImg}
+            src={Mario_Adrian}
             alt="Little Lemon Ingrediants"></img>
             <div className="reserve-header-t">
                 <h1>About Us</h1>

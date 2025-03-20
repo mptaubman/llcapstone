@@ -1,11 +1,11 @@
-import HeroImg from './assets'
+import Present from './alittlecap\src\assets\restauranfood.jpg'
 
 function Heading() {
     return (
       <header className="reserve-table">
         <img
           className="header-reserve"
-          src={HeroImage}
+          src={Present}
           alt="Little Lemon Ingredients"
         ></img>
         <div className="reserve-header-text">
