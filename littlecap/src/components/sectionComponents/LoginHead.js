@@ -1,4 +1,4 @@
-import rest_chef from 'littlecap\src\assets\rest_chef.jpg';
+import rest_chef from '../../assets/rest_chef.jpg';
 
 function LoginHead() {
     return (

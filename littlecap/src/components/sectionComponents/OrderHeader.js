@@ -1,4 +1,4 @@
-import Present from './alittlecap\src\assets\restauranfood.jpg'
+import Present from '../../assets/restauranfood.jpg'
 
 function Heading() {
     return (

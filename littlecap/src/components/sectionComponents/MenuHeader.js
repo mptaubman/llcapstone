@@ -1,4 +1,4 @@
-import Grill from 'littlecap\src\assets\grill.jpg';
+import Grill from '../../assets/grill.jpg';
 
 function MenuHeader() {
     return (

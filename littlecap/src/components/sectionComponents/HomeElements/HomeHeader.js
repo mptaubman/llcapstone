@@ -12,7 +12,7 @@ function HomeHeader(){
                     <Link className="action-button" to="/BookingPage">Reserve a table</Link>
                 </section>
                 <section className="hero-img">
-                    <img src={require('littlecap\src\assets\bruschetta.jpg')}
+                    <img src={require('../../../assets/bruschetta.jpg')}
                     alt="Little Lemon Restaurant food dish"></img>
                 </section>
             </article>

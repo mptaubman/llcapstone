@@ -11,8 +11,8 @@ function AboutHero(){
                 </p>
             </section>
             <section className="HeroImg">
-                <img className="about-1" 
-                src={require('littlecap\src\assets\bruschetta.jpg')}
+                <img className="about-1"
+                src={require('../../../assets/bruschetta.jpg')}
                 alt="A dish from the Little Lemon Restaurant."></img>
             </section>
         </article>

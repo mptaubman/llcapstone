@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import GreekSalad from '../../../assets/food/greek-salad.webp';
-import Bruschetta from '../../../assets/food/bruschetta.jpeg';
-import LemonDessert from '../../../assets/food/lemon-dessert.webp';
-import SpecialCard from './CardInfo/SpecialCard';
+import GreekSalad from '../../../assets/greek-salad.jpg';
+import Bruschetta from '../../../assets/bruschetta.jpg';
+import LemonDessert from '../../../assets/lemon-dessert.jpg';
+import SpecialCard from './SpecialsCard';
 
 function CarouselPage() {
     return (

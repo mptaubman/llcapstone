@@ -1,4 +1,4 @@
-import HeroImage from "littlecap\src\assets\restaurant.jpg" 
+import HeroImage from "../../assets/restaurant.jpg" 
 //don't forget to update to photo location in assets
 
 function Heading() {
