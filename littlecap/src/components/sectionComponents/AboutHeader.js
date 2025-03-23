@@ -6,7 +6,7 @@ function Heading() {
             className="header-reserve"
             src={require("../../assets/Mario_Adrian.jpg")}
             alt="Little Lemon Ingrediants"></img>
-            <div className="reserve-header-t">
+            <div className="reserve-header-text">
                 <h1>About Us</h1>
             </div>
         </header>

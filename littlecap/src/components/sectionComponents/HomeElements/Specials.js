@@ -24,7 +24,7 @@ function Specials(){
                  and lemon zest."/>
             </section>
 
-            <section>
+            <section className='specials-carousel'>
                 <CarouselPage />
             </section>
         </section>

@@ -1,5 +1,7 @@
 * {
   font-family: "Markazi Text", "Karla", serif;
+  margin: 0;
+  padding: 0;
 }
 
 label,
@@ -25,13 +27,6 @@ input,
 select {
   width: 10rem;
 }
-
-body {
-  margin: 0; /* removes white border around website*/
-  padding: 0;
-  margin-top: -22px;
-}
-
 menu {
   list-style: none;
   display: grid;
@@ -75,11 +70,20 @@ Link:link {
   margin-top: -2rem;
 }
 
+.header-reserve{
+  margin-top: 2rem;
+  width: 100vw;
+  height: 20rem;
+  object-fit: cover;
+}
+
+
 /* Navigation */
   .navbar {
 		display: grid;
     grid-template-columns: repeat(7, 1fr);
     align-items: center;
+    max-height: max-content;
   }
   .nav_logo{
     max-height: 4vh;
@@ -99,81 +103,317 @@ Link:link {
   }
 
 /* Hero */
-.hero {
-  min-height: 13rem;
+.call-to-action {
+  min-height: 10rem;
   background-color: #495e57;
   display: grid;
-  color: #ffffff;
   grid-template-columns: 1fr 1fr;
-  padding: 1rem;
-  margin-top: -1.4rem;
+  color: #ffffff;
+  padding: 2rem;
+  margin-top: 1rem;
 }
 
-.hero-img{
-position: absolute;
-width: 392px;
-height: 545px;
-left: 760px;
-top: 175px;
-border-radius: 16px;
+.hero-text > h1{
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 77px;
+color: #F4CE14;
+}
 
-  }
+.hero-text > h3 {
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+color: #FFFFFF;
+}
+
+.hero-text > p{
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+padding-top: 4rem;
+padding-bottom: 3rem;
+}
+
+.cta_pic{
+  max-height: 18rem;
+  border-radius: 16px;
+}
+.cta_pic > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 /* Specials*/
 .specials {
-  padding: 1rem;
+  padding: 2rem;
+  max-height: max-content;
+  background-color: #edefee
 }
-.header-reserve{
-  width: 100vh;
-  height: 20rem;
+.specials-topbar{
+  align-items: center;
+}
+.specials-topbar > h1{
+font-family: 'Markazi Text';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+padding-bottom: 1rem;
+}
+.specials-card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.menu-card{
+  background-color: #cbcecd;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  border-radius: 16px;
+}
+.menu-card > img{
+  height: 25vh;
+  width: 100%;
   object-fit: cover;
+  border-radius: 16px;
 }
+.menu-card-content{
+  margin: 0.5rem 2rem 1rem 2rem;
+}
+.menu-card-content > h1{
+  font-size: 2.2rem;
+  margin-top: 0.5rem;
+}
+.menu-card-content > h3{
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+.menu-card-content > p{
+  margin: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.special-button {
+  background-color: #f4ce14;
+  border-radius: 16px;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.special-button:hover{
+  background-color: #495e57;
+  color: #eeeeee;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: black;
+  transition: 0.2s;
+}
+.specials-carousel{
+  display: none;
+  animation-duration: 0.40s;
+  animation-timing-function: ease-in-out;
+  animation-name: slideDownFade;
+  margin: 0 2rem 0 2rem;
+}
+
 /* Testimonials */
 .testimonials {
   background-color: #495e57;
-  color: #ffffff;
-  padding: 1rem;
+  animation-duration: 0.40s;
+  animation-timing-function: ease-in-out;
+  animation-name: slideDownFade;
+  padding: 0rem 5rem 2rem 5rem;
+  max-height: max-content;
 }
-/* About */
-.aboutthem{
-  padding: 1rem;
+.testimonials-topbar > h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 4rem 0 1rem 0;
+  color: #edefee;
+}
+.testimonials-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2vw;
+  align-items: center;
+  max-height: max-content;
+
+}
+.testimonial-card {
+  background-color: #edefee;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 16px;
+}
+.test_pic{
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+.testimonials-carousel{
+  display: none;
+  margin: 1rem 2rem 1rem 2rem;
 }
 
-.header-reserve{
-position: absolute;
-width: 254px;
-height: 324px;
-left: 896px;
-top: 2062px;
-border-radius: 16px;
+/* About */
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.25rem 5rem 2.5rem 5rem;
+  min-height: 22rem;
+  margin-bottom: -1rem;
+  grid-gap: 25vw;
+  background-color: #edefee
+}
+
+.about-text > h1{
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  color: #f4ce14;
+}
+
+.about-text > h3 {
+  font-family: 'Markazi Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #080808;
+ }
+
+.about-text > p{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #070707;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.double-image {
+  max-height: 18rem;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+}
+
+.double-image > img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.about-2 {
+  position: absolute;
+  top: -3.5rem;
+  left: 5rem;
 }
 
 /* Footer */
 footer {
-  display: grid;
-  min-height: 10rem;
+  min-height: 13rem;
   background-color: #495e57;
   color: #ffffff;
   padding-bottom: 1rem;
   margin-top: 1.4rem;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+footer > li{
+  list-style: none;
 }
 
 .foot_logo{
-  max-height: 12vh;
-  margin-top: 4rem;
-  margin-left: 1.25rem;
-background: #495E57;
-border-radius: 16px;
-}
-
-.footTitle{
-
+  max-height: 10rem;
+  top: 50%;
+  margin-right: 2rem;
+  margin-left: 5rem;
+  background: #495E57;
+  border-radius: 16px;
 }
 .footLink {
-  color: #ffffff;
+  padding: 0;
+  list-style: none;
 }
-.footLink:hover{
+.footLink > a{
+  text-align: left;
+  display: block;
+  color: white;
+  padding-top: 0.2rem;
+  font-family: "Karla", "Sans Serif";
+}
+.footLink:hover > a{
   color: #f4ce14;
+  text-decoration: underline;
   transition: 0.25s;
+}
+
+/* Reservation Form */
+.reserve-table {
+  position: relative;
+  text-align: center;
+  color: #495E57;
+  margin-top: -1.4rem;
+}
+
+.reserve-header-text {
+  padding: 0 3rem 0 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  border-radius: 16px;
+  background-color: #edefee;
+}
+
+.reservation-form {
+  padding: 2rem 0 0.5rem 0;
+  text-align: center;
+}
+.reservation-form > div {
+  margin-bottom: 1.5rem;
+}
+.fieldBox{
+  padding: auto;
+  border: thick ridge #495E57;
+}
+.copyright{
+  padding-bottom: 3rem;
+}
+.confirm-head {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -1.4rem;
+  min-height: 70vh;
+}
+.reserve-confirm-text{
+  padding: 0 3rem 0 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  border-radius: 16px;
+  background-color: #495E57
 }

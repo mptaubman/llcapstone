@@ -3,33 +3,32 @@ import React from "react";
 function Footer(){
     return(
         <footer>
-            <img src={require("../assets/small_logo.jpg")}
+            <img src={require("../assets/small_l_mono_g.jpg")}
             alt="Little Lemon Head Logo"
             className="foot_logo">
-            </img>
+            </img><li>
                 <h1 className="footTitle">Navigation</h1>
                 <ul className="footLink">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/About">About</a></li>
-                    <li><a href="/Menu">Menu</a></li>
-                    <li><a href="/BookingPage">Reservations</a></li>
-                    <li><a href="/Order">Order Online</a></li>
-                    <li><a href="/Login">Login</a></li>
-                </ul>
-                <hi className="footTitle">Contact Us</hi>
+                    <a href="/">Home</a>
+                    <a href="/About">About</a>
+                    <a href="/Menu">Menu</a>
+                    <a href="/BookingPage">Reservations</a>
+                    <a href="/Order">Order Online</a>
+                    <a href="/Login">Login</a>
+                </ul></li>
+                <li><h1 className="footTitle">Contact Us</h1>
                 <ul className="footLink">
-                    <li><a href="/">Address</a></li>
-                    <li><a href="/">Phone Number</a></li>
-                    <li><a href="/">Email</a></li>
-                </ul>
-                <h1 className="footTitle">Social Media</h1>
+                    <a href="/">Address</a>
+                    <a href="/">Phone Number</a>
+                    <a href="/">Email</a>
+                </ul></li>
+                <li><h1 className="footTitle">Social Media</h1>
                 <ul className="footLink">
-                    <li><a href="/">Address</a></li>
-                    <li><a href="/">LinkedIn</a></li>
-                    <li><a href="/">Facebook</a></li>
-                    <li><a href="/">Twitter/X</a></li>
-                    <li><a href="/">TikTok</a></li>
-                </ul>
+                    <a href="https://www.linkedin.com">LinkedIn</a>
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://x.com">Twitter/X</a>
+                    <a href="https://tiktok.com">TikTok</a>
+                </ul></li>
 
         </footer>
     );

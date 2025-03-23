@@ -7,7 +7,7 @@ function LoginHead() {
                 className='header-reserve'
                 src={rest_chef}
                 alt="Little lemon ingrediants"></img>
-                <div className='reserve-header-t'>
+                <div className='reserve-header-text'>
                     <h1>Login</h1>
                 </div>
         </header>

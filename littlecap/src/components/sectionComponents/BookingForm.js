@@ -33,6 +33,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="fName">First Name</label><br />
                 <input
+                    className="fieldBox"
                     type="text"
                     id="fName"
                     placeholder="First Name"
@@ -43,6 +44,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="lName">Last Name</label><br />
                 <input
+                    className="fieldBox"
                     type="text"
                     id="lName"
                     placeholder="Last Name"
@@ -53,6 +55,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="email">Email</label><br />
                 <input
+                    className="fieldBox"
                     type="email"
                     id="email"
                     placeholder="Email"
@@ -63,6 +66,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="tel">Phone Number</label><br />
                 <input
+                    className="fieldBox"
                     type="tel"
                     id="tel"
                     placeholder="(xxx)-xxx-xxxx"
@@ -75,6 +79,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="guest">Number of Guests</label><br />
                 <input
+                    className="fieldBox"
                     type="number"
                     id="guest"
                     placeholder="Number of Guests"
@@ -87,6 +92,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="date">Select a Date</label><br />
                 <input
+                    className="fieldBox"
                     type="date"
                     id="date"
                     value={date}
@@ -95,13 +101,14 @@ function ReserveForm(props){
             </div>
             <div>
                 <label htmlFor="time">Select a Time</label><br />
-                <select id="time" required>
+                <select className="fieldBox" id="time" required>
                     {finalTime}
                 </select>
             </div>
             <div>
                 <label htmlFor="options">Seating Preferences</label><br />
                 <select
+                className="fieldBox"
                 id="options"
                 value={options}
                 onChange={(e) => setOptions(e.target.value)}>
@@ -115,6 +122,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="occasion">Is this for a Special Event?</label><br />
                 <select
+                className="fieldBox"
                 id="occasion"
                 value={occasion}
                 onChange={(e) => setOccasion(e.target.value)}>
@@ -128,6 +136,7 @@ function ReserveForm(props){
             <div>
                 <label htmlFor="comments">Additional Comments</label> <br />
                 <textarea
+                className="fieldBox"
                 id="comments"
                 rows={8}
                 cols={50}
@@ -138,7 +147,7 @@ function ReserveForm(props){
             <div>
                 <br />
                 <small>
-                    <p>
+                    <p className="copyright">
                         Note: If you need to edit your reservation after submission you will have to call the restaurant.
                         Please double-check the anwsers you have selected before submitting your request.
                     </p>
