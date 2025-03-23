@@ -14,7 +14,7 @@ function Confirmation() {
                 <h4>Thank you for dining with us!</h4>
             </section>
             <section className="redirect-button">
-                <a 
+                <a
                 className="redirect-button"
                 href="littlecap\src\assets"
                 target="_blank"

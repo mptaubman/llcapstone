@@ -6,25 +6,25 @@ function Navigation(){
         <nav className='navbar'>
             <img src={require("../assets/logo.jpg")}
             alt="Little Lemon Logo"
-            className='nav-logo'></img>
-        <Link to="/" className="hover-effect">
-            <h1>Home</h1>
-        </Link>
-        <Link to="/About" className="hover-effect">
-            <h1>About</h1>
-        </Link>
-        <Link to="/Menu" className='hover-effect'>
-            <h1>Menu</h1>
-        </Link>
-      <Link to="/Reservations" className="hover-effect">
-        <h1>Reservations</h1>
-      </Link>
-      <Link to="/Order" className="hover-effect">
-        <h1>Order</h1>
-      </Link>
-      <Link to="Login" className="hover-effect">
-        <h1>Login</h1>
-      </Link>
+            className='nav_logo'></img>
+            <Link to="/" className="hover-effect">
+              <h1>Home</h1>
+            </Link>
+            <Link to="/About" className="hover-effect">
+              <h1>About</h1>
+            </Link>
+            <Link to="/Menu" className='hover-effect'>
+              <h1>Menu</h1>
+            </Link>
+            <Link to="/BookingPage" className="hover-effect">
+              <h1>Reservations</h1>
+            </Link>
+            <Link to="/Order" className="hover-effect">
+              <h1>Order</h1>
+            </Link>
+            <Link to="Login" className="hover-effect">
+              <h1>Login</h1>
+            </Link>
         </nav>
     );
 }

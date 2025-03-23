@@ -1,41 +1,104 @@
 * {
-  border: 0;
-  margin: 0;
   font-family: "Markazi Text", "Karla", serif;
 }
 
+label,
+input,
+select,
+textarea,
+p {
+  font-family: "Karla";
+}
+
+input,
+select,
+option,
+textarea {
+  background-color: #eeeeee;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0.2rem;
+  resize: none;
+}
+
+input,
+select {
+  width: 10rem;
+}
+
 body {
+  margin: 0; /* removes white border around website*/
+  padding: 0;
+  margin-top: -22px;
+}
+
+menu {
+  list-style: none;
   display: grid;
+}
+
+button {
+  background-color: white;
+  border: none;
+}
+
+.burger-icon {
+  margin-top: 1.5rem;
+}
+
+a:visited,
+Link:visited,
+a:link,
+Link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.action-button {
+  background-color: #f4ce14;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   border-radius: 16px;
+  font-family: "Karla";
+  font-size: 2rem;
 }
 
-.navbar{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: baseline;
-padding: 10px 0px;
-gap: 10px;
-
-position: absolute;
-width: 642px;
-height: 41px;
-left: 510px;
-top: 41px;
+.action-button:hover {
+  background-color: #495e57;
+  color: #eeeeee;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #edefee;
+  transition: 0.2s;
 }
 
-.navbar > img{
-position: absolute;
-width: 200px;
-height: 75px;
-left: 290px;
-top: 28px;
+.subsection {
+  margin-top: -2rem;
+}
 
-}
-.navbar > a{
-  text-align: start;
-  table-layout: auto;
-}
+/* Navigation */
+  .navbar {
+		display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+  }
+  .nav_logo{
+    max-height: 4vh;
+    margin-top: 0.7rem;
+    margin-left: 1.25rem;
+  }
+  .hover-effect{
+	  text-align: center;
+    margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+	}
+  .hover-effect:hover{
+    color: #495e57;
+    transition: 0.25s;
+  }
+
+/* Hero */
 .hero {
   min-height: 13rem;
   background-color: #495e57;
@@ -45,44 +108,72 @@ top: 28px;
   padding: 1rem;
   margin-top: -1.4rem;
 }
+
+.hero-img{
+position: absolute;
+width: 392px;
+height: 545px;
+left: 760px;
+top: 175px;
+border-radius: 16px;
+
+  }
+
+/* Specials*/
 .specials {
   padding: 1rem;
 }
-
+.header-reserve{
+  width: 100vh;
+  height: 20rem;
+  object-fit: cover;
+}
+/* Testimonials */
 .testimonials {
   background-color: #495e57;
   color: #ffffff;
   padding: 1rem;
 }
-
+/* About */
 .aboutthem{
   padding: 1rem;
 }
 
+.header-reserve{
+position: absolute;
+width: 254px;
+height: 324px;
+left: 896px;
+top: 2062px;
+border-radius: 16px;
+}
+
+/* Footer */
 footer {
+  display: grid;
   min-height: 10rem;
   background-color: #495e57;
   color: #ffffff;
   padding-bottom: 1rem;
-  margin-top: -1.4rem;
+  margin-top: 1.4rem;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .foot_logo{
-position: absolute;
-width: 1440px;
-height: 352px;
-left: 1px;
-top: 2548px;
+  max-height: 12vh;
+  margin-top: 4rem;
+  margin-left: 1.25rem;
 background: #495E57;
+border-radius: 16px;
+}
+
+.footTitle{
 
 }
-.foot_logo > img {
-position: absolute;
-width: 163px;
-height: 244px;
-left: 290px;
-top: 2610px;
-border-radius: 16px;
-
+.footLink {
+  color: #ffffff;
+}
+.footLink:hover{
+  color: #f4ce14;
+  transition: 0.25s;
 }

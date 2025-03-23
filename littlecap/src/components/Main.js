@@ -11,8 +11,7 @@ import Homepage from './pages/Homepage';
 function Main() {
     return (
         <div>
-            this will eventually contain all the materials for the main sections
-        <Routes>
+            <Routes>
                 <Route path="/" element={<Homepage />}></Route>
                 <Route path="/About" element={<About />}></Route>
                 <Route path="/Menu" element={<Menu />}></Route>
