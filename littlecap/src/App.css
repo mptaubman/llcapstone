@@ -22,7 +22,9 @@ textarea {
   border-radius: 0.2rem;
   resize: none;
 }
-
+input:focus:invalid{
+  border: 2px solid red;
+}
 input,
 select {
   width: 10rem;

@@ -12,10 +12,23 @@ function ReserveForm(props){
     const [date, setDate] = useState("");
     const [options, setOptions] = useState("");
     const [occasion, setOccasion] = useState("");
-    const [comments, setComments] = useState("")
+    const [comments, setComments] = useState("");
+    const [isActive, setIsActive] = useState(true);
     const [finalTime, setFinalTime] =useState(
         props.availableTimes.map((times) => <option>{times}</option>)
     );
+    const handleSubmit = (e) => {
+        e.preventDefault ();
+    }
+    const isFormValid = () => {
+        return (
+            fName &&
+            lName &&
+            email &&
+            tel &&
+            guest &&
+            date !== "Select a Date");
+        };
 
     function handleDateChange(e) {
         setDate(e.target.value);
@@ -29,7 +42,7 @@ function ReserveForm(props){
     }
 
     return (
-        <form className="reservation-form">
+        <form className="reservation-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="fName">First Name</label><br />
                 <input
@@ -152,7 +165,10 @@ function ReserveForm(props){
                         Please double-check the anwsers you have selected before submitting your request.
                     </p>
                 </small>
-                <Link className="action-button" to="/confirmation">Book Table</Link>
+                <button className="action-button"
+                type="submit"
+                disabled={!isFormValid}>
+                <Link to={isActive ? "/confirmation" : ""}>Book Table</Link></button>
             </div>
         </form>
     );
