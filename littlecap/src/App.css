@@ -3,6 +3,17 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "Markazi Text";
+  src: local("Markazi_Text"),
+    url("./assets/fonts/Markazi_Text/MarkaziText-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Karla";
+  src: local("Karla"),
+      url("./assets/fonts/Karla/Karla-VariableFont_wght.ttf") format("truetype");
+}
 
 label,
 input,
@@ -322,12 +333,14 @@ padding-bottom: 1rem;
   position: relative;
   top: 0;
   left: 0;
+  border-radius: 16px;
 }
 
 .about-2 {
   position: absolute;
   top: -3.5rem;
   left: 5rem;
+  border-radius: 16px;
 }
 
 /* Footer */
