@@ -73,23 +73,24 @@ You may also see any lint errors in the console.
   
 #### Persona
   I created a persona in order to utilizing empathy of what kind of person may be using this new feature. 
-  ![image]
+  
+  ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Persona.jpg)
   
 #### User Journey Map
   This showcases what the established persona goes through currently before addition of new feature.
-  ![image]
+  ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Journey_map.jpg)
   
 #### Design Style
   This is provided by the client who wants the feature added to the website and showcases their brand image.
-  ![image]
+  ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Style_page.jpg)
   
 #### WireFrame
   Based on the previous information it is utilized to create a Wireframe that showcases the addition of the feature.
-  ![image]
+  ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/WireFrame_1.jpg)
   
 #### Prototype
   Finally, a prototype is put together marrying the brands image to the inclusion of the feature.
-  ![image]
+  ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Prototype_2.jpg)
   
 ##
 ### Developing Code
@@ -213,10 +214,11 @@ function ReserveForm(props){
 ```
 #### Final Product
  Here is screenshots of the final product in use.
- ![image]
- ![image]
- ![image]
- ![image]
+ ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Screenshot_Home.jpg)
+ ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Screenshot_Home2.jpg)
+ ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Screenshot_Table1.jpg)
+ ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Screenshot_Table2.jpg)
+ ![image](https://github.com/mptaubman/llcapstone/blob/main/ReadMeIMG/Screenshot_Confirm.jpg)
  
 ## Useful Resources
   These are some resources I found useful when establishing my application
