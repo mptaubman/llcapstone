@@ -33,6 +33,10 @@ This is a project I completed for the Meta Front-end Developer Course on Courser
 ### How to Use
 In the project directory open the terminal:
 
+### `cd littlecap`
+
+  This navigates to the folder holding the application.
+
 ### `npm install`
 
 This will download any dependencies required to run the app.
